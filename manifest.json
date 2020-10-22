@@ -1,16 +1,15 @@
 {
-
   "manifest_version": 2,
   "name": "wsj-remove-banner",
   "version": "1.0",
-
   "description": "Remove ad banner from WSJ",
-
+  "icons": {
+    "48": "icons/border-48.png"
+  },
   "content_scripts": [
     {
       "matches": ["*://*.wsj.com/*"],
       "js": ["wsj-remove-banner.js"]
     }
   ]
-
 }
