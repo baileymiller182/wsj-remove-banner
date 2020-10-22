@@ -1,0 +1,1 @@
+document.getElementById("wrapper-AD_PUSH").remove();
